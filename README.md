@@ -1,8 +1,8 @@
 # Ballroom East Static Site
 
 ## TODOs
-- [ ] Set up Github Repo
-- [ ] Connect repo to GetForge
+- [x] Set up Github Repo
+- [x] Connect repo to GetForge
 - [ ] Redraw and revamp prototype of site
 - [ ] Functionally implement using Bootstrap
 - [ ] Prettify with custom CSS
