@@ -1,6 +1,7 @@
 # Ballroom East Static Site
 
 ## TODOs
+
 - [x] Set up Github Repo
 - [x] Connect repo to Netlify
 - [ ] Redraw and revamp prototype of site
@@ -11,6 +12,7 @@
 - [ ] Serve static assets to S3 (Maybe)
 
 ### Credentials
+
 - Author: Justin Chiou
-- Email: [chiou.kai@gmail.com](mailto:chiou.kai@gmail.com)
-- Github: [Shadowlion](https://github.com/shadowlion)
+- [Email](mailto:chiou.kai@gmail.com)
+- [Github](https://github.com/shadowlion)
