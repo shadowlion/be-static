@@ -34,6 +34,4 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 ## Credentials
 
-- Author: Justin Chiou
-- [Email](mailto:chiou.kai@gmail.com)
-- [Github](https://github.com/shadowlion)
+- [Justin Chiou](http://justinchiou.me) - [Email](mailto:chiou.kai@gmail.com) - [Github](https://github.com/shadowlion)
