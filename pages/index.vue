@@ -3,9 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">{{ title }}</h1>
-      <h2 class="subtitle">
-        Static site redesign of ballroomeast.com
-      </h2>
+      <h2 class="subtitle">Static site redesign of ballroomeast.com</h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -21,7 +19,7 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import AppLogo from '@/components/AppLogo.vue'
 
 export default {
   components: {
