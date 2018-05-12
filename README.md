@@ -2,7 +2,7 @@
 
 ## TODOs
 - [x] Set up Github Repo
-- [x] Connect repo to GetForge
+- [x] Connect repo to Netlify
 - [ ] Redraw and revamp prototype of site
 - [ ] Functionally implement using Bootstrap
 - [ ] Prettify with custom CSS
