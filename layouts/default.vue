@@ -1,9 +1,20 @@
 <template>
   <div>
-    <nuxt/>
+    <nuxt />
+    <footerSection />
   </div>
 </template>
 
+<script>
+import footerSection from '@/components/Footer'
+
+export default {
+  components: {
+    footerSection
+  }
+}
+</script>
+
 <style>
-@import "bulma";
+@import "bulma/css/bulma";
 </style>
