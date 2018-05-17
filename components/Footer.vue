@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          &copy; {{ year }} <a href="https://ballroomeast.com">Ballroom East Dance Studio</a>
+          &copy; 1986-{{ year }} <a href="/">Ballroom East Dance Studio</a>
         </p>
       </div>
     </div>
