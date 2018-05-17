@@ -14,19 +14,18 @@
 
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-start">
-          <navLink title="Home" url="https://www.google.com" />
+          <navLink title="Home" url="/" />
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="/documentation/overview/start/">
-              Docs
-            </a>
+            <a class="navbar-link" href="/">About</a>
             <div class="navbar-dropdown is-boxed">
-              <navLink title="Overview" url="/" />
-              <navLink title="Hello" url="/" />
-              <navLink title="Hello" url="/" />
-              <navLink title="Hello" url="/" />
-              <navLink title="Hello" url="/" />
+              <navLink title="Classes" url="/classes" />
+              <navLink title="Lessons" url="/lessons" />
+              <navLink title="Judges" url="/teacher" />
             </div>
           </div>
+          <navLink title="Calendar" url="/calendar" />
+          <navLink title="Gifts" url="/gift" />
+          <navLink title="Contact" url="/contact" />
         </div>
       </div>
     </nav>
