@@ -18,6 +18,7 @@
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link" href="/">About</a>
             <div class="navbar-dropdown is-boxed">
+              <navLink title="The Studio" url="/studio" />
               <navLink title="Classes" url="/classes" />
               <navLink title="Lessons" url="/lessons" />
               <navLink title="Judges" url="/teacher" />
