@@ -1,22 +1,18 @@
 <template>
   <div>
-    <navBar />
+    <nav-bar />
     <nuxt />
-    <footerSection />
+    <main-footer />
   </div>
 </template>
 
 <script>
-import navBar from '@/components/nav/NavBar'
-import footerSection from '@/components/Footer'
+import NavBar from '@/components/NavBar'
+import MainFooter from '@/components/Footer'
 
 export default {
   components: {
-    navBar, footerSection
+    NavBar, MainFooter
   }
 }
 </script>
-
-<style>
-@import "bulma/css/bulma";
-</style>

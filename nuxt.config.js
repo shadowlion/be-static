@@ -18,6 +18,20 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Add custom CSS files
+  */
+  css: [
+    { src: '~assets/css/ballroomeast.webflow.css', lang: 'css' },
+    { src: '~assets/css/normalize.css', lang: 'css' },
+    { src: '~assets/css/webflow.css', lang: 'css' }
+  ],
+  /*
+  ** Add custom JS files
+  */
+  js: [
+    { src: '~assets/js/webflow.js', lang: 'javascript' }
+  ],
+  /*
   ** Build configuration
   */
   build: {
