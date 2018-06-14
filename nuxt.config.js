@@ -26,12 +26,6 @@ module.exports = {
     { src: '~assets/css/webflow.css', lang: 'css' }
   ],
   /*
-  ** Add custom JS files
-  */
-  js: [
-    { src: '~assets/js/webflow.js', lang: 'javascript' }
-  ],
-  /*
   ** Build configuration
   */
   build: {
