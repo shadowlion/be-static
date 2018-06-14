@@ -405,14 +405,14 @@
 }
 
 .slide._1 {
-  background-image: url('../images/Banner07.png');
+  background-image: url('/static/images/Banner07.png');
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slide._2 {
-  background-image: url('../images/brighterBanner01.png');
+  background-image: url('/static/images/brighterBanner01.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -694,7 +694,7 @@
   width: 100%;
   height: 400px;
   padding: 0px;
-  background-image: url('../images/charles_jones-225x300.png');
+  background-image: url('/static/images/charles_jones-225x300.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -702,11 +702,11 @@
 }
 
 .portrait-link-block.linda {
-  background-image: url('../images/Linda-225x300.png');
+  background-image: url('/static/images/Linda-225x300.png');
 }
 
 .portrait-link-block.chase {
-  background-image: url('../images/chase_abell-225x300.jpg');
+  background-image: url('/static/images/chase_abell-225x300.jpg');
 }
 
 .text-wrapper {
@@ -1932,4 +1932,3 @@ html.w-mod-js *[data-ix="hidden-mobile-menu"] {
     box-shadow: 0 0 6px 1px grey;
   }
 }
-
