@@ -125,75 +125,77 @@
       </div>
     </div>
   </div>
-  <div class="section marginalized _2">
-    <div class="w-container">
-      <div class="titling blue large calendar w-hidden-medium w-hidden-small w-hidden-tiny">To view the group classes on the calendar please click on the date.</div>
-      <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-embed w-iframe"><iframe src="https://calendar.google.com/calendar/embed?src=fr6ccioiqp72qafpvb3vdb70p4%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></div>
-      <div class="month-div w-hidden-main">
-        <div class="calendar-div">
-          <div class="day-title">Mondays in <span id="month-input"></span></div>
-          <div class="event-title">Advanced Waltz</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="with-word-style">with</div>
-          <div class="instructor-title">Charles Jones</div>
-          <div class="time-title">8pm to 8:45pm $10</div>
+  <div id="app">
+    <div class="section marginalized _2">
+      <div class="w-container">
+        <div class="titling blue large calendar w-hidden-medium w-hidden-small w-hidden-tiny">To view the group classes on the calendar please click on the date.</div>
+        <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-embed w-iframe"><iframe src="https://calendar.google.com/calendar/embed?src=fr6ccioiqp72qafpvb3vdb70p4%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe></div>
+        <div class="month-div w-hidden-main">
+          <div class="calendar-div">
+            <div class="day-title">Mondays in {{ monthName }}</div>
+            <div class="event-title">Advanced Waltz</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="with-word-style">with</div>
+            <div class="instructor-title">Charles Jones</div>
+            <div class="time-title">8pm to 8:45pm $10</div>
+          </div>
+          <div class="calendar-div">
+            <div class="day-title">Wednesdays in {{ monthName }}</div>
+            <div class="event-title">Beginners Foxtrot</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="with-word-style">with</div>
+            <div class="instructor-title">Linda Jackson</div>
+            <div class="time-title">8pm to 8:45pm $5</div>
+          </div>
+          <div class="calendar-div">
+            <div class="day-title">Thursdays in {{ monthName }}</div>
+            <div class="event-title">Intermediate Hustle</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="with-word-style">with</div>
+            <div class="instructor-title">Chase Abell</div>
+            <div class="time-title">8pm to 8:45pm $5</div>
+          </div>
+          <div class="calendar-div">
+            <div class="day-title">Fridays in {{ monthName }}</div>
+            <div class="event-title">{{ monthName }} 7th</div>
+            <div class="event-title">Friday Night Kids Group Class</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="time-title">7pm to 7:45pm</div>
+            <div class="time-title">$5/person</div>
+          </div>
+          <div class="calendar-div">
+            <div class="event-title">{{ monthName }} 14th</div>
+            <div class="event-title">Friday Night Kids Group Class</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="time-title">7pm to 7:45pm</div>
+            <div class="time-title">$5/person</div>
+            <div class="time-title">AND</div>
+            <div class="event-title">Beginners Bolero Group Class and Social Dance Party</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="time-title">Group Class: 8pm to 8:45pm</div>
+            <div class="time-title">Dance Party: 8:45pm to 10:00pm</div>
+            <div class="time-title">$5/person total</div>
+          </div>
+          <div class="calendar-div">
+            <div class="event-title">{{ monthName }} 21st</div>
+            <div class="event-title">Friday Night Kids Group Class</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="time-title">7pm to 7:45pm</div>
+            <div class="time-title">$5/person</div>
+          </div>
+          <div class="calendar-div">
+            <div class="event-title">{{ monthName }} 28th</div>
+            <div class="event-title">Friday Night Kids Group Class</div>
+            <div class="time-title">(Open to the public)</div>
+            <div class="time-title">7pm to 7:45pm</div>
+            <div class="time-title">$5/person</div>
+          </div>
         </div>
-        <div class="calendar-div">
-          <div class="day-title">Wednesdays in <span id="month-input"></span></div>
-          <div class="event-title">Beginners Foxtrot</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="with-word-style">with</div>
-          <div class="instructor-title">Linda Jackson</div>
-          <div class="time-title">8pm to 8:45pm $5</div>
-        </div>
-        <div class="calendar-div">
-          <div class="day-title">Thursdays in <span id="month-input"></span></div>
-          <div class="event-title">Intermediate Hustle</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="with-word-style">with</div>
-          <div class="instructor-title">Chase Abell</div>
-          <div class="time-title">8pm to 8:45pm $5</div>
-        </div>
-        <div class="calendar-div">
-          <div class="day-title">Fridays in <span id="month-input"></span></div>
-          <div class="event-title"><span id="month-input"></span> 7th</div>
-          <div class="event-title">Friday Night Kids Group Class</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="time-title">7pm to 7:45pm</div>
-          <div class="time-title">$5/person</div>
-        </div>
-        <div class="calendar-div">
-          <div class="event-title"><span id="month-input"></span> 14th</div>
-          <div class="event-title">Friday Night Kids Group Class</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="time-title">7pm to 7:45pm</div>
-          <div class="time-title">$5/person</div>
-          <div class="time-title">AND</div>
-          <div class="event-title">Beginners Bolero Group Class and Social Dance Party</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="time-title">Group Class: 8pm to 8:45pm</div>
-          <div class="time-title">Dance Party: 8:45pm to 10:00pm</div>
-          <div class="time-title">$5/person total</div>
-        </div>
-        <div class="calendar-div">
-          <div class="event-title"><span id="month-input"></span> 21st</div>
-          <div class="event-title">Friday Night Kids Group Class</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="time-title">7pm to 7:45pm</div>
-          <div class="time-title">$5/person</div>
-        </div>
-        <div class="calendar-div">
-          <div class="event-title"><span id="month-input"></span> 28th</div>
-          <div class="event-title">Friday Night Kids Group Class</div>
-          <div class="time-title">(Open to the public)</div>
-          <div class="time-title">7pm to 7:45pm</div>
-          <div class="time-title">$5/person</div>
-        </div>
+        <div class="titling blue large w-hidden-medium w-hidden-small w-hidden-tiny"><a target="_blank" href="documents/Calendar-selective-Fri.pdf" class="download-link w-hidden-small w-hidden-tiny">Click here to view the 2018 Yearly Group Schedule</a></div>
       </div>
-      <div class="titling blue large w-hidden-medium w-hidden-small w-hidden-tiny"><a target="_blank" href="documents/Calendar-selective-Fri.pdf" class="download-link w-hidden-small w-hidden-tiny">Click here to view the 2018 Yearly Group Schedule</a></div>
     </div>
+    <div class="button-container w-hidden-main"><a href="documents/Calendar-selective-Fri.pdf" target="_blank" class="download-button w-hidden-main w-button">Click here to view the <br>2018 Group Schedule</a></div>
   </div>
-  <div class="button-container w-hidden-main"><a href="documents/Calendar-selective-Fri.pdf" target="_blank" class="download-button w-hidden-main w-button">Click here to view the <br>2018 Group Schedule</a></div>
   <div class="section footer">
     <div class="link-container footer w-hidden-medium w-hidden-small w-hidden-tiny">
       <div class="footer-container links w-container"><a href="index.html" class="text-link footer">Home</a><a href="about-us/our-story.html" class="text-link footer">Our Story</a><a href="about-us/our-instructors.html" class="text-link footer">Our Instructors</a><a href="calendar.html" class="text-link footer w--current">Calendar</a><a href="gift-certificates.html" class="text-link footer">Gift Certificates</a><a href="visit-us.html" class="text-link footer">Visit Us</a><a href="contact.html" class="text-link footer">Contact Us</a></div>
@@ -242,16 +244,35 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <script>
-    const monthArray = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-    const monthNumber = new Date().getMonth();
-    const monthInputs = document.querySelectorAll('span#month-input');
-    monthInputs.forEach(monthInput => {
-      const monthText = document.createTextNode(monthArray[monthNumber]);
-      monthInput.appendChild(monthText);
-    });
+    const app = new Vue({
+      el: '#app',
+      data: {
+        monthNumber: new Date().getMonth(),
+        monthList: [
+          'January',
+          'February',
+          'March',
+          'April',
+          'May',
+          'June',
+          'July',
+          'August',
+          'September',
+          'October',
+          'November',
+          'December'
+        ]
+      },
+      computed: {
+        monthName () {
+          return this.monthList[this.monthNumber]
+        }
+      }
+    })
   </script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 </body>
